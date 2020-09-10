@@ -144,3 +144,19 @@ div .more {
 .rss:hover, .rss:active {
     background: #ff8822;
 }
+
+
+/* https://css-tricks.com/minimum-paragraph-widths/ */
+/* @media screen and (max-width: 400px) { */
+/*   img { */
+/*     float: none; */
+/*   } */
+/* } */
+p:before {
+  content: "";
+  width: 10em;
+  display: block;
+  overflow: hidden;
+  /* For Demonstration */
+  /* border: 1px solid green; */
+}
